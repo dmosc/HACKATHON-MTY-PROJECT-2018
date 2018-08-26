@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 24px;
+}
+
+/* Full-width input fields */
+select, input[type=tel], input[type=text], input[type=password] {
+  font-size: 24px;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #856BB7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.buttons {
+  width: 100%;
+}
+
+/* Float signup buttons and hold total width*/
+.signupbtn {
+  float: left;
+  width: 100%;
+  background: #856BB7;
+}
+
+/* Add padding to container elements */
+.centerArea {
+  margin: 0% 30%;
+  padding: 16px;
+  text-align: center;
+}
+
+.selectAccountDetails input:hover {
+    cursor: pointer;
+}
+
+.userInputs {
+  padding: 15px;
+}
+
+.format {
+  text-align: center;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .signupbtn {
+    width: 100%;
+  }
+}

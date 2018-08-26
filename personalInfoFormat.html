@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WH</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="centerArea">
+  <form id="contact" action="personaliseAccount.html" method="post">
+    <h3 class="titles">Tell us a little bit about you...</h3>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      <input placeholder="Last name" type="text" tabindex="2" required>
+      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+      <input placeholder="State, City" type="text" tabindex="4" required>
+      <div class="formContainer">
+        <select type="select" name="sextype">
+          <option value="male">MALE</option>
+          <option value="female">FEMALE</option>
+          <option value="other">OTHER</option>
+        </select>
+      </div>
+      <a href="personaliseAccount.html">
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </a>
+  </form>
+</div>
+  </body>
+</html>
